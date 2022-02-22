@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap%27');
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 64px;
+}
+nav {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 115px;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 293px;
+}
+
+.title img {
+  width: 25px;
+  height: 21.39px;
+  margin-left: 6px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-right: 112px;
+}
+
+.elipse-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.elipse-2 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: -1;
+}
+
+.elipse-3 {
+  position: absolute;
+  top: 686px;
+  left: 420px;
+}
+
+.arrow-1 {
+  position: absolute;
+  top: 925px;
+left: 960px;
+}
+
+/* Block */
+
+.block{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.block-left {
+  display: block;
+}
+
+.block-text {
+  font-size: 96px;
+  color: black;
+  margin: 0 15px 0 15px;
+}
+.colored {
+  background: linear-gradient(to right, #5F26FF, #0066FF) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.btn-1 {
+  border-radius: 20px;
+  padding:6px 80px;
+  color: white;
+  margin-left: 20px;
+  background: linear-gradient(to right, #5F26FF, #0066FF);
+  text-decoration: none;
+}
+
+.image-1 {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  height: 770px;
+  width: 950px;
+}
+
+/* Features */
+.features {
+  margin-top: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/Vector\ 1.png");
+  height: 72rem;
+  background-repeat: no-repeat;
+}
+
+.features h1 {
+  color: white;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 64px;
+}
+
+.features-line h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.features-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-item {
+  margin: 0 100px;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.product-item {
+  margin: 0 60px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: block;
+}
+
+.product-item h3 {
+  font-size: 36px;
+  text-align: center;
+  color: black;
+}
+
+.product-middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 80px;
+}
+
+.rating img {
+  width: 35px;
+  height: 35px;
+}
+
+.stock {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.btn-2 {
+  padding:6px 80px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(to right, #5F26FF, #0066FF);
+  text-decoration: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .elipse-3 {
+    display: none;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 500px;
+  }
+
+  .arrow-1 {
+    position: absolute;
+    top: 700px;
+  left: 50%;
+  right: 50%;
+  }
+  
+  /* Block */
+  
+  .block{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+  }
+  
+  .block-left {
+    display: block;
+  }
+  
+  .block-text {
+    font-size: 68px;
+    color: black;
+    margin: 0 15px 0 15px;
+  }
+  .colored {
+    background: linear-gradient(to right, #5F26FF, #0066FF) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+  }
+  
+  .btn-1 {
+    border-radius: 20px;
+    padding:6px 80px;
+    color: white;
+    margin-left: 20px;
+    background: linear-gradient(to right, #5F26FF, #0066FF);
+    text-decoration: none;
+  }
+  
+  .image-1 {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    height: 520px;
+    width: 590px;
+  }
+  
+  /* Features */
+  .features {
+    margin-top: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/Vector\ 1.png");
+    height: 72rem;
+    background-repeat: no-repeat;
+  }
+  
+  .features h1 {
+    color: white;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 64px;
+  }
+  
+  .features-line h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .features-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .features-item {
+    margin: 0 100px;
+  }
+  
+  /* PRODUCTS */
+  .products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+  
+  .product-item {
+    margin: 0 30px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 50%;
+    display: block;
+  }
+  
+  .product-item img {
+    width: 350px;
+  }
+  
+  .product-item h3 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+  }
+  
+  .product-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+  }
+  
+  .rating img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .stock {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .btn-2 {
+    padding:6px 80px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, #5F26FF, #0066FF);
+    text-decoration: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav, .block,.features, .products, img {
+    display: none;
+  }
+
+  .mobile {
+    text-align: center;
+    display: block !important;
+  }
+}
